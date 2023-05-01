@@ -10,7 +10,7 @@ class Responsive extends StatefulWidget {
   @override
   State<Responsive> createState() => _ResponsiveState();
 }
-
+ 
 class _ResponsiveState extends State<Responsive> {
   @override
   Widget build(BuildContext context) {
