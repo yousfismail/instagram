@@ -64,9 +64,9 @@ class _MobileScreenState extends State<MobileScreen> {
         physics: NeverScrollableScrollPhysics(),
         controller: _pageController, 
         children: [
-          Home(),
-          Search(),
-          AddPost(),
+          Home(), 
+          Search(),  
+          AddPost(),  
           Center(child: Text("Love u ♥")),
           Profile(),
         ],
