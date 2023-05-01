@@ -15,7 +15,7 @@ class WebScreen extends StatefulWidget {
 class _WebScreenState extends State<WebScreen> {
   @override 
   final PageController _pageController = PageController();
-  int page = 0;
+  int page = 0; 
 
   navigate2Screen(int indexx) {
     _pageController.jumpToPage(indexx);
