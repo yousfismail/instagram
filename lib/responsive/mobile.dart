@@ -57,7 +57,7 @@ class _MobileScreenState extends State<MobileScreen> {
                 ),
                 label: ""),
           ]),
-      body: PageView(
+      body: PageView( 
         onPageChanged: (index) {
           print("------- $index");
         },
