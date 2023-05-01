@@ -58,7 +58,7 @@ class _MobileScreenState extends State<MobileScreen> {
                 label: ""),
           ]),
       body: PageView( 
-        onPageChanged: (index) {
+        onPageChanged:  (index) {
           print("------- $index");
         },
         physics: NeverScrollableScrollPhysics(),
