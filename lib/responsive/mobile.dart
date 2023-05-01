@@ -66,8 +66,8 @@ class _MobileScreenState extends State<MobileScreen> {
         children: [
           Home(), 
           Search(),  
-          AddPost(),  
-          Center(child: Text("Love u ♥")),
+          AddPost(),   
+          Center(child: Text("Love u ♥")), 
           Profile(),
         ],
       ),
