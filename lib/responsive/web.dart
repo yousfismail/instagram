@@ -20,7 +20,7 @@ class _WebScreenState extends State<WebScreen> {
   navigate2Screen(int indexx) {
     _pageController.jumpToPage(indexx);
     setState(() {
-      page = indexx;
+      page = indexx; 
     });
   }
 
