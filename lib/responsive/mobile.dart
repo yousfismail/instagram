@@ -71,6 +71,6 @@ class _MobileScreenState extends State<MobileScreen> {
           Profile(),  
         ],
       ),
-    );
+    ); 
   }
 }
