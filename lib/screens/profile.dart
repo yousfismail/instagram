@@ -37,7 +37,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               Expanded(
-                child: Row(
+                child: Row( 
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Column(
