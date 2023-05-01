@@ -62,7 +62,7 @@ class _MobileScreenState extends State<MobileScreen> {
           print("------- $index");
         },
         physics: NeverScrollableScrollPhysics(),
-        controller: _pageController,
+        controller: _pageController, 
         children: [
           Home(),
           Search(),
