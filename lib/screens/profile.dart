@@ -141,7 +141,7 @@ class _ProfileState extends State<Profile> {
                 label: Text(
                   "Edit profile",
                   style: TextStyle(fontSize: 17),
-                ),
+                ), 
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(
                       Color.fromARGB(0, 90, 103, 223)),
