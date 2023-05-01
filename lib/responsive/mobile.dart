@@ -18,7 +18,7 @@ class _MobileScreenState extends State<MobileScreen> {
 
   int currentPage = 0;
   @override
-  Widget build(BuildContext context) { 
+  Widget build(BuildContext context) {  
     return Scaffold(
       bottomNavigationBar: CupertinoTabBar(
           backgroundColor: mobileBackgroundColor,
