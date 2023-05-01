@@ -163,7 +163,7 @@ class _HomeState extends State<Home> {
                       fontSize: 18, color: Color.fromARGB(214, 157, 157, 165)),
                   textAlign: TextAlign.start,
                 )),
-          ],
+          ], 
         ),
       ),
     );
