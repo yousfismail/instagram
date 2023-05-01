@@ -147,7 +147,7 @@ class _ProfileState extends State<Profile> {
                       Color.fromARGB(0, 90, 103, 223)),
                   padding: MaterialStateProperty.all(EdgeInsets.symmetric(
                       vertical: widthScreen > 600 ? 19 : 10, horizontal: 33)),
-                  shape: MaterialStateProperty.all(
+                  shape: MaterialStateProperty.all( 
                     RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(7),
                       side: BorderSide(
