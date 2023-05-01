@@ -13,7 +13,7 @@ class MobileScreen extends StatefulWidget {
   State<MobileScreen> createState() => _MobileScreenState();
 }
 
-class _MobileScreenState extends State<MobileScreen> {
+class _MobileScreenState extends State<MobileScreen> { 
   final PageController _pageController = PageController();
 
   int currentPage = 0;
