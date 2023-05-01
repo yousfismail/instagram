@@ -13,7 +13,7 @@ class WebScreen extends StatefulWidget {
 }
 
 class _WebScreenState extends State<WebScreen> {
-  @override
+  @override 
   final PageController _pageController = PageController();
   int page = 0;
 
