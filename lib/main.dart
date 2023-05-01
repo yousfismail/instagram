@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp( 
       debugShowCheckedModeBanner: false,  
-      theme: ThemeData.dark(),
+      theme: ThemeData.dark(), 
       home: Responsive(
         myMobileScreen: MobileScreen(), 
         myWebScreen: WebScreen(),
